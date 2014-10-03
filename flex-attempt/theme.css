@@ -1,0 +1,23 @@
+.outsideBox {
+	display: flex;
+}
+
+.title {
+	display:block;
+	text-align: center;
+}
+
+
+.midBox {
+  display: flex;
+  background-color: grey;
+
+
+}
+
+.inmostBox {
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100px;
+  border: 2px solid blue;
+}

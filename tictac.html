@@ -15,26 +15,35 @@
 	<link rel="stylesheet" href="tictac.css">
 </head>
 <body>
+      <nav class="navbar navbar-default">
+        <div class="container">
+			<h1 class = "myTitle">TicTac Fun</h1>
+			<h1 class = "myTitle winner"></h1>
+			<form class="navbar-form">
+			<button id= "resetbutton" class="btn btn-primary">Play Again</button>
+			</form>
+        </div>
+      </nav>
 	<div class = "container">
 		<div class = "row">
 			<div class="col-md-4">
-				<div class="box toprow notright"></div>
-				<div class="box toprow notright"></div>
-				<div class="box toprow"></div>
+				<div class="box leftcol notbot" id = "a0"></div>
+				<div class="box leftcol notbot" id = "a3"></div>
+				<div class="box leftcol" id = "a6"></div>
 			</div>
 			<div class="col-md-4">
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
+				<div class="box notbot" id = "a1"></div>
+				<div class="box notbot" id = "a4"></div>
+				<div class="box"  id = "a7"></div>
 			</div>
 			<div class="col-md-4">				
-				<div class="box bottomrow notright"></div>
-				<div class="box bottomrow notright"></div>
-				<div class="box bottomrow"></div>
+				<div class="box rightcol notbot" id = "a2"></div>
+				<div class="box rightcol notbot" id = "a5"></div>
+				<div class="box rightcol" id = "a8"></div>
 			</div>
 		</div>
 	</div>
-	<script src="tictac.js"></script>script>
+	<script src="tictac.js"></script>
 </body>
 
 </html>
